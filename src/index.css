@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,700;1,800&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+main {
+  width: 100%;
+  margin: 40px auto;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 80px;
+  margin: 0px auto;
+  border-bottom: 1px solid #fff;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.15);
+}
+
+nav h1 {
+  font-size: 1.8rem;
+  margin: 15px;
+}
+nav h2 {
+  font-size: 1rem;
+  margin: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+}
+
+nav button {
+  margin: 15px;
+  padding: 8px 12px;
+  border-radius: 15px;
+  border: 1px solid #39ff14;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+nav button:hover {
+  background-color: #39ff14;
+  color: #fff;
+}
+
+.right-side-nav {
+  display: flex;
+  align-items: center;
+}
+
+.dashboard-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 40px;
+}
+
+.items {
+  margin-left: 20px;
+}
+
+.anime-item-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #39ff14;
+  border-radius: 15px;
+  box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.anime-item-container h2 {
+  font-size: 1.3rem;
+  margin-right: 20px;
+}
+
+.anime-item-container h3 {
+  font-size: 1rem;
+  margin-right: 10px;
+}
+
+.empty-check-box {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin-left: 20px;
+  margin-right: 25px;
+  cursor: pointer;
+}
+
+.delete-button {
+  background-color: transparent;
+  border: none;
+  margin-left: 30px;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+.check-mark {
+  font-size: 20px;
+  color: green;
+}
+.create-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.label-input {
+  margin-bottom: 30px;
+  font-family: "Poppins", sans-serif;
+}
+
+.form-button {
+  width: 25%;
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid #39ff14;
+  background-color: transparent;
+  font-size: 0.95rem;
+  font-weight: 700;
+  transition: all 0.25s ease;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+}
+
+input,
+label {
+  display: block;
+}
+
+label {
+  font-size: 1.4rem;
+}
+
+input {
+  width: 90%;
+  padding: 10px;
+  font-size: 1.2rem;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.form-button:hover {
+  background-color: #39ff14;
+  color: #fff;
+}
+
+.error-message {
+  margin-top: 20px;
+  color: red;
+  font-size: 1rem;
+  width: 50%;
+  text-align: center;
+}
+
+#error-message-1 {
+  font-size: 0.8rem;
+}
+
+#signup-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #39ff14;
+  border-radius: 15px;
+  width: 400px;
+  height: 520px;
+  margin: 30px auto;
+}
+#login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #39ff14;
+  border-radius: 15px;
+  width: 400px;
+  height: 480px;
+  margin: 30px auto;
+}
+
+.signup-login-form input {
+  width: 85%;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  border: 1px solid #000;
+  font-family: "Poppins", sans-serif;
+}
+
+.signup-login-form button {
+  width: 80%;
+  padding: 13px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  background-color: #39ff14;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.home-page {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home-page div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.home-page img {
+  width: 150px;
+  border-radius: 50%;
+  margin-right: 25px;
+}
+
+.home-page h1 {
+  font-size: 3rem;
+}
+.home-page h3 {
+  font-size: 1.5rem;
+  margin: 15px auto;
+}
+
+.home-page p {
+  font-size: 1.2rem;
+}
